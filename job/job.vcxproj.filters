@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="job.cpp">
+    <ClCompile Include="约德尔测试.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
