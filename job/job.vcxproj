@@ -151,8 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="约德尔测试.cpp" />
-    <ClCompile Include="股神.cpp" />
+    <None Include="readme.md">
+      <FileType>Document</FileType>
+    </None>
+    <ClCompile Include="上台阶.cpp" />
+    <None Include="博弈问题.cpp" />
+    <None Include="约德尔测试.cpp" />
+    <None Include="股神.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

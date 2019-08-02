@@ -15,11 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="股神.cpp">
+    <ClCompile Include="上台阶.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="约德尔测试.cpp">
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md" />
+    <None Include="约德尔测试.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
+    </None>
+    <None Include="股神.cpp">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="博弈问题.cpp">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
