@@ -6,28 +6,22 @@
 #include <iostream>
 
 using namespace std;
-int m;
-int way=0;
-int upStair(int count) {
-	if (count == m) {
-		way++;
-		return 0;
-	}
-	if (count > m) {
-		return 0;
-	}
-	upStair(count + 1);
-	upStair(count + 2);
-}
+
 int main() {
 
-	int n = 0;
+	int m=0,n = 0;
+	int stair[40];
 	cin >> n;
 	while (n--) {
-		way = 0;
+		stair[0] = 1;
+		stair[1] = 1;
 		cin >> m;
-		upStair(1);
-		cout << way;
+		if (m > 1) {
+			for (int i = 2; i < m; i++) {
+				stair[i] = stair[i - 1] + stair[i - 2];
+			}
+		}
+		cout << stair[m-1];
 	}
 	return 0;
 }
