@@ -15,7 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="readme.md" />
     <None Include="约德尔测试.cpp">
       <Filter>源文件</Filter>
     </None>
@@ -31,6 +30,7 @@
     <None Include="军训队列.cpp">
       <Filter>源文件</Filter>
     </None>
+    <None Include="..\readme.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="击鼓传花.cpp">
