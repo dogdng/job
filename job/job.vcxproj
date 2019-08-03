@@ -161,6 +161,7 @@
     <None Include="军训队列.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="八皇后.cpp" />
     <ClCompile Include="击鼓传花.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
