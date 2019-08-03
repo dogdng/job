@@ -15,11 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="上台阶.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="readme.md" />
     <None Include="约德尔测试.cpp">
       <Filter>源文件</Filter>
@@ -30,5 +25,13 @@
     <None Include="博弈问题.cpp">
       <Filter>源文件</Filter>
     </None>
+    <None Include="上台阶.cpp">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="军训队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
