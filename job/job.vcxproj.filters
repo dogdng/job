@@ -28,9 +28,12 @@
     <None Include="上台阶.cpp">
       <Filter>源文件</Filter>
     </None>
+    <None Include="军训队列.cpp">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="军训队列.cpp">
+    <ClCompile Include="击鼓传花.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
